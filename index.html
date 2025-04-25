@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saarthak Rajurkar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: auto;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            font-size: 1em;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .contact-section {
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Saarthak Rajurkar</h1>
+            <p>Computer Science Engineer  |  AI-ML  |  3D Designer  |  Tech Enthusiast</p>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <img src="C:\Users\lenovo\OneDrive\Desktop\folder\IMG-20250119-WA0034.jpg" alt="Profile Picture">
+        <h2>About Me</h2>
+        <p>Hello I'm Saarthak Rajurkar, a tech enthusiast pursuing AIML engineering in B.Tech. My key interests lie in domains like 3D Models Designing, 2D and 3D Animations, and developing some AI tools.</p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A responsive and interactive personal portfolio webpage.</p>
+        </div>
+        <div class="project">
+            <h3>3D Designs</h3>
+            <p>A few samples of 3D designs which have been uploaded on my github link below!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section with Form -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="tel" name="contact" placeholder="Contact Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://www.linkedin.com/in/sarthak-rajurkar-0b84652a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+        <a href="https://github.com/S7X-fold" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+        <a href="https://x.com/SilkSkullReaper" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </footer>
+</body>
+</html>
